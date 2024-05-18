@@ -83,3 +83,38 @@ ScrollReveal().reveal(".about-content .about-btn", {
     delay: 2000,
 });
 
+
+ScrollReveal().reveal(".collection-image-1", {
+    ...scrollRevealOption,
+    origin: "top",
+});
+
+ScrollReveal().reveal(".collection-image-2", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".collection-content .section-subheader", {
+    ...scrollRevealOption,
+    origin: "left",
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".collection-content .section-header", {
+    ...scrollRevealOption,
+    delay: 1500,
+});
+
+ScrollReveal().reveal(".collection-content p", {
+    ...scrollRevealOption,
+    delay: 2000,
+});
+
+ScrollReveal().reveal(".collection-btn", {
+    ...scrollRevealOption,
+    delay: 2500,
+});
+
+
+
+
