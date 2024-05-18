@@ -116,5 +116,22 @@ ScrollReveal().reveal(".collection-btn", {
 });
 
 
+ScrollReveal().reveal(".testimonial .section-subheader", {
+    ...scrollRevealOption,
+    origin: "left",
+});
+
+ScrollReveal().reveal(".testimonial .section-header", {
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal(".testimonial-container .customer-content", {
+    ...scrollRevealOption,
+    origin: "top",
+    delay: 1000,
+    interval: 500,
+});
+
 
 
