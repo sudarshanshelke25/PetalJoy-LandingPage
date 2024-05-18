@@ -56,6 +56,30 @@ ScrollReveal().reveal(".header-content .content-cta-btn", {
 });
 
 
+ScrollReveal().reveal(".about-image", {
+    ...scrollRevealOption,
+    origin: "top",
+});
 
+ScrollReveal().reveal(".about-content .section-subheader", {
+    ...scrollRevealOption,
+    origin: "left",
+    delay: 500,
+});
 
+ScrollReveal().reveal(".about-content .section-header", {
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal(".about-content p", {
+    ...scrollRevealOption,
+    delay: 1500,
+});
+
+ScrollReveal().reveal(".about-content .about-btn", {
+    ...scrollRevealOption,
+    origin: "left",
+    delay: 2000,
+});
 
